@@ -1,0 +1,14 @@
+# 忽略環境變數檔案
+.env
+venv/
+
+# 忽略作業系統產生的檔案
+.DS_Store
+Thumbs.db
+__pycache__/
+
+# 忽略 IDE 設定檔案
+.vscode/
+.idea/
+
+status.json

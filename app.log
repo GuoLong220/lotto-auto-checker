@@ -1,0 +1,4 @@
+2025-01-22 17:15:40,052 - ERROR - Error fetching lottery numbers: 尚未取得開獎
+2025-01-22 17:16:40,395 - ERROR - Error fetching lottery numbers: 'in <string>' requires string as left operand, not int
+2025-01-22 17:17:31,118 - INFO - 2025-01-21 Today has Successfully fetched lottery numbers
+2025-01-22 17:17:32,987 - INFO - Successfully fetched lottery numbers
