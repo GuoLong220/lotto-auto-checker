@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 os_path = os.getenv('os_path')
-my_number = os.getenv('my_number').split(',')
+my_number = list(map(int, os.getenv('my_number').split(',')))
 
 os.chdir(os_path)
 logging.basicConfig(filename='app.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
